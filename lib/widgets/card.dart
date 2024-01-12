@@ -21,7 +21,7 @@ class StackedCard extends StatelessWidget {
                 color: const Color(0xff252637),
               ),
               child: Padding(
-                padding: EdgeInsets.symmetric(vertical: 15.h, horizontal: 10.w),
+                padding: EdgeInsets.symmetric(vertical: 5.h, horizontal: 10.w),
                 child: stackwidget,
               ),
             ),

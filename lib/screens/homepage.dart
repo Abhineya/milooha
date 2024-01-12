@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
             'Latin text, but to todays seen as gibberish'
             'Lorem Ipsum, sometimes referred to as is the placeholder text used in design when creating content. It helps designers plan out',
             style: TextStyle(
-                fontSize: 15.sp, color: Colors.white, letterSpacing: 2),
+                fontSize: 12.sp, color: Colors.white, letterSpacing: 2),
           ),
           const Spacer(),
           Row(
@@ -158,9 +158,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(fontSize: 20.sp, color: Colors.white),
                   ),
                 ),
-                SizedBox(
-                  height: 5.h,
-                ),
+               
                 Center(
                   child: Text(
                     'embrace positivity, seize opportunities between',
@@ -168,7 +166,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: 15.h,
+                  height: 5.h,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -243,9 +241,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(fontSize: 10.sp, color: Colors.grey),
                   ),
                 ),
-                SizedBox(
-                  height: 15.h,
-                ),
+              
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.start,
